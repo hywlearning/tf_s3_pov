@@ -13,3 +13,4 @@ resource "aws_vpc" "hello_vpc_2" {
   enable_dns_support   = true
 }
 
+
