@@ -20,7 +20,7 @@ terraform {
     region       = "ap-southeast-1"
     encrypt      = true
     use_lockfile = true
-    profile      = "cnfp_master_admin"
+    profile      = "tf_state_handler"
     # profile = "master-programmatic-admin"
     # access_key = data.vault_kv_secret_v2.tfstate_credentials.data["aws_access_key_id"]
     # secret_key = data.vault_kv_secret_v2.tfstate_credentials.data["aws_secret_access_key"]
