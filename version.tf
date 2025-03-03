@@ -8,5 +8,5 @@ terraform {
 }
 
 provider "aws" {
-    profile = "cnfp_master_admin"
+    //profile = "cnfp_master_admin"
 }
